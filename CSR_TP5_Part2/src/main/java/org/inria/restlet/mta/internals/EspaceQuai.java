@@ -87,7 +87,7 @@ public class EspaceQuai {
 		boolean trainDispo = false;
 		while (!trainDispo) {
 			// Si il y à ou plusieurs trains de dispo.
-			if (!listTrain.isEmpty()) {
+			if (trainDisponible()) {
 				for (Train train : listTrain) {
 					if (train.monter()) {
 						System.out.println("Le voyageur n° " + voyageur.getIdVoyageur() + " prends le train n° "
