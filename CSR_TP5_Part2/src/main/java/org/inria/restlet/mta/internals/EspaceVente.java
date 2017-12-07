@@ -6,7 +6,7 @@ package org.inria.restlet.mta.internals;
  *
  */
 
-public class EspaceVente extends Thread {
+public class EspaceVente {
 
 	// Déclarations des attributs.
 	private int nbBillets;
