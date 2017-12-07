@@ -93,6 +93,7 @@ public class EspaceQuai {
 						System.out.println("Le voyageur n° " + voyageur.getIdVoyageur() + " prends le train n° "
 								+ train.getIdTrain());
 						voyageur.setVoyageurParti(true);
+						trainDispo = true;
 						return;
 					}
 				}
