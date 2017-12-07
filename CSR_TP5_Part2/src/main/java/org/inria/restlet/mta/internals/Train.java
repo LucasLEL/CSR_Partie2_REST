@@ -39,7 +39,7 @@ public class Train extends Thread {
 	/**
 	 * Délai d'entrée en gare, puis traitement.
 	 */
-	public synchronized void run() {
+	public void run() {
 		try {
 			sleep(10000 / VITESSE_TRAIN);
 			traitementTrains();
